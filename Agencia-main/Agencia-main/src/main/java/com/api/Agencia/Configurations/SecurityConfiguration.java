@@ -27,6 +27,7 @@ public class SecurityConfiguration {
         return http.build();
     }
 
+
     @Bean
     public UserDetailsService userDetailsService() {
         InMemoryUserDetailsManager manager = new InMemoryUserDetailsManager();
